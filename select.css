@@ -1,0 +1,68 @@
+.selectedBox {
+    width: auto;
+    margin: 0 10px 5px 20px;
+    overflow: hidden;
+}
+
+.selectedBox li{
+    display: list-item;
+    padding: 5px;
+    margin: 2px 5px 2px 5px;
+    white-space:normal;
+    float: left;
+    font-size: 90%;
+    font-weight: 100;
+    background-color: #e4e4e4;
+    border: 1px solid #aaa;
+    text-align: -webkit-match-parent;
+    color: black;
+
+}
+
+.searchBarBox {
+    float: inherit;
+    display: inline-block;
+}
+
+.searchBox {
+    font-size: 80%;
+    position: absolute;
+    width: 300px;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: white;
+    border: solid 1px #5897fb;
+    border-top: solid 1px white;
+    z-index: 1;
+    padding: 3px;
+    display: none;
+}
+
+.searchBoxChild {
+    cursor:pointer;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.searchBoxChild:hover {
+    background-color: #5897fb;
+}
+
+.searchBar {
+    float: none;
+    display:inline;
+    padding: 5px 5px 5px 10px;
+    width: 300px;
+}
+
+.searchBar:focus {
+    border-color: #5897fb;
+    border-bottom: solid 1px white;
+}
+
+.btnSelectedDelete {
+    margin: 0 15px 0 5px;
+    font-weight: 800;
+    color:grey;
+    cursor:pointer
+}
